@@ -1,0 +1,5 @@
+Dos script documentation
+
+When app is run the app takes a prompt of ip then of port. It uses the provided information to create multiple conneections inside an infinte loop on 400 threads(500 is the python limit and my computer gets stuck beyond this number). The connections make the server busy and there by stop the server from accepting legitimate requests there by achieving denial of service. 
+
+Issues: Will not work on most modern servers such as node, apache etc because they have security measures in place to prevent such attacks 
